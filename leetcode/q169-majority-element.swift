@@ -55,6 +55,6 @@ struct q169 {
     }
     
     static func getSolution() -> Void {
-        print(Solution())
+        print(Solution().)
     }
 }
