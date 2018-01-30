@@ -36,6 +36,9 @@
 		82FF045920205CB10007EE35 /* q127-word-ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045820205CB10007EE35 /* q127-word-ladder.swift */; };
 		82FF045B20205DBF0007EE35 /* q54-spiral-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */; };
 		82FF045D20205E9A0007EE35 /* q217-contains-duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */; };
+		82FF045F202060AC0007EE35 /* q11-container-with-most-water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045E202060AC0007EE35 /* q11-container-with-most-water.swift */; };
+		82FF04612020613A0007EE35 /* q766-toeplitz-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF04602020613A0007EE35 /* q766-toeplitz-matrix.swift */; };
+		82FF0463202068F60007EE35 /* q334-increasing-triplet-subSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF0462202068F60007EE35 /* q334-increasing-triplet-subSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +84,9 @@
 		82FF045820205CB10007EE35 /* q127-word-ladder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q127-word-ladder.swift"; sourceTree = "<group>"; };
 		82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q54-spiral-matrix.swift"; sourceTree = "<group>"; };
 		82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q217-contains-duplicate.swift"; sourceTree = "<group>"; };
+		82FF045E202060AC0007EE35 /* q11-container-with-most-water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q11-container-with-most-water.swift"; sourceTree = "<group>"; };
+		82FF04602020613A0007EE35 /* q766-toeplitz-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q766-toeplitz-matrix.swift"; sourceTree = "<group>"; };
+		82FF0462202068F60007EE35 /* q334-increasing-triplet-subSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q334-increasing-triplet-subSequence.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 				827644F12019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift */,
 				827644F32019C9AD0029DC36 /* q13-roman-to-integer.swift */,
 				82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */,
+				82FF04602020613A0007EE35 /* q766-toeplitz-matrix.swift */,
 			);
 			name = Easy;
 			sourceTree = "<group>";
@@ -158,6 +165,8 @@
 				827644DB2019C19D0029DC36 /* q150-evaluate-reverse-polish-natation.swift */,
 				82FF045820205CB10007EE35 /* q127-word-ladder.swift */,
 				82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */,
+				82FF045E202060AC0007EE35 /* q11-container-with-most-water.swift */,
+				82FF0462202068F60007EE35 /* q334-increasing-triplet-subSequence.swift */,
 			);
 			name = Medium;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FF0463202068F60007EE35 /* q334-increasing-triplet-subSequence.swift in Sources */,
 				82637F0B200C448F004CFF47 /* q26-remove-duplicate-from-sorted-array.swift in Sources */,
 				82FF045D20205E9A0007EE35 /* q217-contains-duplicate.swift in Sources */,
 				827644EA2019C7140029DC36 /* q119-pascal's-triangle.swift in Sources */,
@@ -235,7 +245,9 @@
 				827644F22019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift in Sources */,
 				827644F42019C9AD0029DC36 /* q13-roman-to-integer.swift in Sources */,
 				82637F15200E2821004CFF47 /* q66-plus-one.swift in Sources */,
+				82FF045F202060AC0007EE35 /* q11-container-with-most-water.swift in Sources */,
 				82637F19200F3A6B004CFF47 /* q189-rotate-array.swift in Sources */,
+				82FF04612020613A0007EE35 /* q766-toeplitz-matrix.swift in Sources */,
 				827644F02019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift in Sources */,
 				827644DC2019C19D0029DC36 /* q150-evaluate-reverse-polish-natation.swift in Sources */,
 				82637F11200C4760004CFF47 /* q27-remove-element.swift in Sources */,
