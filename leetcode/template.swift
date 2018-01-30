@@ -11,6 +11,7 @@ import Foundation
 struct q {
     
     class Solution {
+        
     }
     
     static func getSolution() -> Void {

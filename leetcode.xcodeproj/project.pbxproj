@@ -33,6 +33,9 @@
 		827644F02019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827644EF2019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift */; };
 		827644F22019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827644F12019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift */; };
 		827644F42019C9AD0029DC36 /* q13-roman-to-integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827644F32019C9AD0029DC36 /* q13-roman-to-integer.swift */; };
+		82FF045920205CB10007EE35 /* q127-word-ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045820205CB10007EE35 /* q127-word-ladder.swift */; };
+		82FF045B20205DBF0007EE35 /* q54-spiral-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */; };
+		82FF045D20205E9A0007EE35 /* q217-contains-duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +78,9 @@
 		827644EF2019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q121-best-time-to-buy-and-sell-stock.swift"; sourceTree = "<group>"; };
 		827644F12019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q167-two-sum2-input-array-is-sorted.swift"; sourceTree = "<group>"; };
 		827644F32019C9AD0029DC36 /* q13-roman-to-integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q13-roman-to-integer.swift"; sourceTree = "<group>"; };
+		82FF045820205CB10007EE35 /* q127-word-ladder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q127-word-ladder.swift"; sourceTree = "<group>"; };
+		82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q54-spiral-matrix.swift"; sourceTree = "<group>"; };
+		82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q217-contains-duplicate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 				827644EF2019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift */,
 				827644F12019C94C0029DC36 /* q167-two-sum2-input-array-is-sorted.swift */,
 				827644F32019C9AD0029DC36 /* q13-roman-to-integer.swift */,
+				82FF045C20205E9A0007EE35 /* q217-contains-duplicate.swift */,
 			);
 			name = Easy;
 			sourceTree = "<group>";
@@ -149,6 +156,8 @@
 			children = (
 				827644D92019C1740029DC36 /* q3-longest-substring-without-repeating-char.swift */,
 				827644DB2019C19D0029DC36 /* q150-evaluate-reverse-polish-natation.swift */,
+				82FF045820205CB10007EE35 /* q127-word-ladder.swift */,
+				82FF045A20205DBF0007EE35 /* q54-spiral-matrix.swift */,
 			);
 			name = Medium;
 			sourceTree = "<group>";
@@ -213,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82637F0B200C448F004CFF47 /* q26-remove-duplicate-from-sorted-array.swift in Sources */,
+				82FF045D20205E9A0007EE35 /* q217-contains-duplicate.swift in Sources */,
 				827644EA2019C7140029DC36 /* q119-pascal's-triangle.swift in Sources */,
 				827644E62019C6160029DC36 /* q9-palindrome-number.swift in Sources */,
 				82637F04200C4442004CFF47 /* main.swift in Sources */,
@@ -230,9 +240,11 @@
 				827644DC2019C19D0029DC36 /* q150-evaluate-reverse-polish-natation.swift in Sources */,
 				82637F11200C4760004CFF47 /* q27-remove-element.swift in Sources */,
 				827644DA2019C1740029DC36 /* q3-longest-substring-without-repeating-char.swift in Sources */,
+				82FF045920205CB10007EE35 /* q127-word-ladder.swift in Sources */,
 				82637F17200EF6C3004CFF47 /* q169-majority-element.swift in Sources */,
 				82637F212010D46D004CFF47 /* q28-strStr.swift in Sources */,
 				827644E22019C4860029DC36 /* q20-valid-parentheses.swift in Sources */,
+				82FF045B20205DBF0007EE35 /* q54-spiral-matrix.swift in Sources */,
 				82637F1F2010D408004CFF47 /* q38-count-and-say.swift in Sources */,
 				82637F1D2010D3B4004CFF47 /* q58-length-of-last-word.swift in Sources */,
 				827644E42019C50C0029DC36 /* q205-isomorphic-strings.swift in Sources */,
