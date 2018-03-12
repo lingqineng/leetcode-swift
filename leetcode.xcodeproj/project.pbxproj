@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824A4E3020560F5B00DC45C6 /* sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A4E2F20560F5B00DC45C6 /* sort.swift */; };
 		82637F04200C4442004CFF47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82637F03200C4442004CFF47 /* main.swift */; };
 		82637F0B200C448F004CFF47 /* q26-remove-duplicate-from-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82637F0A200C448F004CFF47 /* q26-remove-duplicate-from-sorted-array.swift */; };
 		82637F0F200C46BD004CFF47 /* template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82637F0E200C46BD004CFF47 /* template.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		824A4E2F20560F5B00DC45C6 /* sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sort.swift; sourceTree = "<group>"; };
 		82637F00200C4442004CFF47 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		82637F03200C4442004CFF47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82637F0A200C448F004CFF47 /* q26-remove-duplicate-from-sorted-array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "q26-remove-duplicate-from-sorted-array.swift"; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		824A4E2E20560F1B00DC45C6 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				824A4E2F20560F5B00DC45C6 /* sort.swift */,
+			);
+			name = Sort;
+			sourceTree = "<group>";
+		};
 		82637EF7200C4441004CFF47 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		82637F02200C4442004CFF47 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				824A4E2E20560F1B00DC45C6 /* Sort */,
 				827644D82019C13E0029DC36 /* Medium */,
 				827644D72019C1220029DC36 /* Easy */,
 				82637F03200C4442004CFF47 /* main.swift */,
@@ -247,6 +258,7 @@
 				82637F15200E2821004CFF47 /* q66-plus-one.swift in Sources */,
 				82FF045F202060AC0007EE35 /* q11-container-with-most-water.swift in Sources */,
 				82637F19200F3A6B004CFF47 /* q189-rotate-array.swift in Sources */,
+				824A4E3020560F5B00DC45C6 /* sort.swift in Sources */,
 				82FF04612020613A0007EE35 /* q766-toeplitz-matrix.swift in Sources */,
 				827644F02019C8E70029DC36 /* q121-best-time-to-buy-and-sell-stock.swift in Sources */,
 				827644DC2019C19D0029DC36 /* q150-evaluate-reverse-polish-natation.swift in Sources */,

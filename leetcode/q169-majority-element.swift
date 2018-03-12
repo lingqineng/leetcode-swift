@@ -20,18 +20,18 @@ struct q169 {
     
     class Solution {
         //1.hash table dictionary O(n) O(n)
-        func majorityElement(_ nums: [Int]) -> Int {
-            var numCounts = [Int: Int]()
-            for num in nums {
-                numCounts[num, default: 0] += 1  //must keep this code but in swift 3,have a error, in swift 4 ,no error
-            }
-            for (key, value) in numCounts {
-                if value > nums.count / 2 {
-                    return key
-                }
-            }
-            return 0
-        }
+//        func majorityElement(_ nums: [Int]) -> Int {
+//            var numCounts = [Int: Int]()
+//            for num in nums {
+//                numCounts[num, default: 0] += 1  //must keep this code but in swift 3,have a error, in swift 4 ,no error
+//            }
+//            for (key, value) in numCounts {
+//                if value > nums.count / 2 {
+//                    return key
+//                }
+//            }
+//            return 0
+//        }
         //2.moore vote dictionary O(n) O(1)
         func majorityElement_1(_ nums: [Int]) -> Int {
             var count = 0;var major = nums.first!
@@ -55,6 +55,6 @@ struct q169 {
     }
     
     static func getSolution() -> Void {
-        print(Solution().)
+        print(Solution())
     }
 }

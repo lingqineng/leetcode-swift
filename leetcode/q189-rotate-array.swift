@@ -25,19 +25,19 @@ struct q189 {
             var m = 0; var n = nums.count - 1
             var k = k % nums.count
             while m < nums.count / 2 {
-                nums.swapAt(m,n)
+                swap(&nums[m], &nums[n])
                 m += 1
                 n -= 1
             }
             var i = 0; var j = k - 1
             while i < k/2 {
-                nums.swapAt(i,j)
+                swap(&nums[i], &nums[j])
                 i += 1
                 j -= 1
             }
             m = 0; n = nums.count - 1
             while m < (nums.count - k) / 2 {
-                nums.swapAt(k + m,n)
+                swap(&nums[k+m], &nums[n])
                 m += 1
                 n -= 1
             }
